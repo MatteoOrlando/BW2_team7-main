@@ -1,0 +1,128 @@
+body {
+  font-family: "Circular";
+}
+
+nav ul {
+  display: flex;
+  list-style-type: none;
+}
+nav ul li:nth-of-type(3) {
+  margin-left: 0.5em;
+  background-color: #242424;
+  border-radius: 20px !important;
+  padding: 0.4em;
+  font-size: 1em;
+}
+nav ul li:nth-of-type(3) input {
+  background-color: #242424;
+  border: none;
+}
+nav ul button {
+  border-radius: 100%;
+  border: none;
+}
+
+/* Media query per schermi small e medium */
+@media (max-width: 768px) {
+  #sx-part {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: 3;
+  }
+  #player-bar {
+    margin-bottom: 3.8em;
+    opacity: 0.7;
+  }
+  #centralPlayer div {
+    text-align: end;
+    margin-right: 1em;
+  }
+}
+main #search[type=text] {
+  background-color: #474747;
+  border: none;
+  padding: 7px;
+}
+main a {
+  text-decoration: none;
+  color: rgba(209, 209, 209, 0.7);
+}
+main a:first-child {
+  color: #D2D2D2;
+}
+main .btn-show {
+  opacity: 0;
+  transform: translateY(50px);
+  animation: slideUp 0.3s ease forwards;
+}
+main .col-relevant:hover .btn-show {
+  animation: slideDown 0.3s ease forwards;
+}
+@keyframes slideUp {
+  to {
+    opacity: 0;
+    transform: translateY(1px);
+  }
+}
+@keyframes slideDown {
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+main .bg-tertiary {
+  background-color: #242424;
+}
+main .sfoglia {
+  cursor: pointer;
+  background-color: #181818;
+  transition: background-color 0.2s ease;
+}
+main .sfoglia:hover {
+  background-color: #242424;
+}
+main .playlist img {
+  transform: rotate(30deg);
+  margin-right: -40px;
+  margin-bottom: -25px;
+}
+main #relevant {
+  background-color: #242424;
+  transition: background-color 0.3s ease;
+}
+main #relevant:hover {
+  background-color: #3d3b3b;
+}
+
+.playerInImg {
+  position: relative;
+  display: inline-block;
+}
+.playerInImg .overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(48, 47, 47, 0.5);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  opacity: 0;
+  transition: opacity 0.3s ease;
+  cursor: pointer;
+}
+.playerInImg:hover .overlay {
+  opacity: 1;
+}
+
+.colOpacity {
+  background-color: #7a7a7a;
+  border-radius: 5px;
+}
+.colOpacity:active {
+  background-color: #6b6b6b;
+  border-radius: 5px;
+}/*# sourceMappingURL=style.css.map */

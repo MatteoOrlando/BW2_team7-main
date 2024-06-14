@@ -1,0 +1,683 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Search</title>
+    <link rel="stylesheet" href="./assets/css/style.css" />
+    <link rel="stylesheet" href="./assets/sass/costum-bootsrap.css" />
+    <link rel="stylesheet" href="./assets/css/circular-font.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.2/font/bootstrap-icons.min.css"
+    />
+    <link rel="icon" href="./assets/imgs/logo-toptop.png" />
+  </head>
+  <body class="container-fluid bg-secondary">
+    <div class="row justify-content-center">
+      <!-- sidebar -->
+      <div class="col bg-black" id="sx-part">
+        <div class="d-flex flex-sm-row flex-lg-column justify-content-center">
+          <ul class="nav flex-row w-100 justify-content-around flex-lg-column">
+            <li class="nav-item d-none d-lg-block">
+              <a class="nav-link" href="#"
+                ><i class="bi bi-three-dots fs-4 me-0 me-lg-3 text-primary"></i>
+              </a>
+            </li>
+            <li class="nav-item">
+              <a
+                class="nav-link active nav-link text-fontB50 d-flex flex-column text-center flex-lg-row align-items-center"
+                href="./index.html"
+                ><i class="bi bi-house-door me-0 me-lg-3 fs-4 text-fontB50"></i>
+                <p class="d-flex flex-row m-0">Home</p>
+              </a>
+            </li>
+            <li class="nav-item">
+              <a
+                class="nav-link nav-link text-fontB50 d-flex flex-column text-center flex-lg-row align-items-center fw-bold"
+                href="./search-revisited.html"
+                ><i class="bi bi-search fs-4 me- me-lg-3"></i>
+                <p class="d-flex flex-row m-0">Cerca</p></a
+              >
+            </li>
+            <li class="nav-item">
+              <a
+                class="nav-link nav-link text-fontB50 d-flex flex-column text-center flex-lg-row align-items-center"
+                href="#"
+                ><i class="bi bi-collection fs-4 me-3 text-fontB50"></i>
+                <p class="d-flex flex-row m-0">La tua libreria</p>
+              </a>
+            </li>
+            <li class="nav-item mt-4 d-none d-lg-block">
+              <a class="nav-link text-fontB50" href="#"
+                ><i
+                  class="bi bi-plus-square-fill fs-4 text-fontB50"
+                  style="margin-right: 20px; margin-left: 2px"
+                ></i
+                >Crea playlist</a
+              >
+            </li>
+            <li class="nav-item d-none d-lg-block">
+              <a class="nav-link text-fontB50" href="#"
+                ><img
+                  src="./assets/imgIcon/heart.png"
+                  alt="heart icon"
+                  class="sideBarIcon"
+                />
+                Brani che ti piacciono</a
+              >
+            </li>
+            <li class="nav-item d-none d-lg-block">
+              <a class="nav-link text-fontB50" href="#"
+                ><img
+                  src="./assets/imgIcon/Saved.png "
+                  alt="saved icon"
+                  class="sideBarIcon"
+                />
+                I tuoi episodi</a
+              >
+            </li>
+          </ul>
+          <!-- list sidebar -->
+          <hr class="bg-grigino mb-0" />
+          <div id="list-Side-Bar">
+            <ul
+              class="nav flex-column text-fontB fw-light ms-3 d-none d-lg-block"
+              style="font-size: 14px"
+            >
+              <li class="nav-item mb-1">
+                early stage emily syndrome (sett-ott 2022)
+              </li>
+              <li class="nav-item mb-1">Be The Young</li>
+              <li class="nav-item mb-1">"..." cit.kimbo (lug-ago 2022)</li>
+              <li class="nav-item mb-1">Saggio vibes</li>
+              <li class="nav-item mb-1">
+                early stage emily syndrome (sett-ott 2022)
+              </li>
+              <li class="nav-item mb-1">Be The Young</li>
+              <li class="nav-item mb-1">"..." cit.kimbo (lug-ago 2022)</li>
+              <li class="nav-item mb-1">Saggio vibes</li>
+              <li class="nav-item mb-1">
+                early stage emily syndrome (sett-ott 2022)
+              </li>
+              <li class="nav-item mb-1">Be The Young</li>
+              <li class="nav-item mb-1">"..." cit.kimbo (lug-ago 2022)</li>
+              <li class="nav-item mb-1">Saggio vibes</li>
+              <li class="nav-item mb-1">
+                early stage emily syndrome (sett-ott 2022)
+              </li>
+              <li class="nav-item mb-1">Be The Young</li>
+              <li class="nav-item mb-1">"..." cit.kimbo (lug-ago 2022)</li>
+              <li class="nav-item mb-1">Saggio vibes</li>
+              <li class="nav-item mb-1">
+                early stage emily syndrome (sett-ott 2022)
+              </li>
+              <li class="nav-item mb-1">Be The Young</li>
+              <li class="nav-item mb-1">"..." cit.kimbo (lug-ago 2022)</li>
+              <li class="nav-item mb-1">Saggio vibes</li>
+              <li class="nav-item mb-1">
+                early stage emily syndrome (sett-ott 2022)
+              </li>
+              <li class="nav-item mb-1">Be The Young</li>
+              <li class="nav-item mb-1">"..." cit.kimbo (lug-ago 2022)</li>
+              <li class="nav-item mb-1">Saggio vibes</li>
+              <li class="nav-item mb-1">
+                early stage emily syndrome (sett-ott 2022)
+              </li>
+              <li class="nav-item mb-1">Be The Young</li>
+              <li class="nav-item mb-1">"..." cit.kimbo (lug-ago 2022)</li>
+              <li class="nav-item mb-1">Saggio vibes</li>
+              <li class="nav-item mb-1">
+                early stage emily syndrome (sett-ott 2022)
+              </li>
+              <li class="nav-item mb-1">Be The Young</li>
+              <li class="nav-item mb-1">"..." cit.kimbo (lug-ago 2022)</li>
+              <li class="nav-item mb-1">Saggio vibes</li>
+              <li class="nav-item mb-1">
+                early stage emily syndrome (sett-ott 2022)
+              </li>
+              <li class="nav-item mb-1">Be The Young</li>
+              <li class="nav-item mb-1">"..." cit.kimbo (lug-ago 2022)</li>
+              <li class="nav-item mb-1">Saggio vibes</li>
+              <li class="nav-item mb-1">
+                early stage emily syndrome (sett-ott 2022)
+              </li>
+              <li class="nav-item mb-1">Be The Young</li>
+              <li class="nav-item mb-1">"..." cit.kimbo (lug-ago 2022)</li>
+              <li class="nav-item mb-1">Saggio vibes</li>
+              <li class="nav-item mb-1">
+                early stage emily syndrome (sett-ott 2022)
+              </li>
+              <li class="nav-item mb-1">Be The Young</li>
+              <li class="nav-item mb-1">"..." cit.kimbo (lug-ago 2022)</li>
+              <li class="nav-item mb-1">Saggio vibes</li>
+              <li class="nav-item mb-1">Saggio vibes</li>
+              <li class="nav-item mb-1">Be The Young</li>
+              <li class="nav-item mb-1">"..." cit.kimbo (lug-ago 2022)</li>
+              <li class="nav-item mb-1">Saggio vibes</li>
+              <li class="nav-item mb-1">Saggio vibes</li>
+              <li class="nav-item mb-1">Be The Young</li>
+              <li class="nav-item mb-1">"..." cit.kimbo (lug-ago 2022)</li>
+              <li class="nav-item mb-1">Saggio vibes</li>
+              <li class="nav-item mb-1">Saggio vibes</li>
+              <li class="nav-item mb-1">Be The Young</li>
+              <li class="nav-item mb-1">"..." cit.kimbo (lug-ago 2022)</li>
+              <li class="nav-item mb-1">Saggio vibes</li>
+              <li class="nav-item mb-1">Saggio vibes</li>
+              <li class="nav-item mb-1">Be The Young</li>
+              <li class="nav-item mb-1">"..." cit.kimbo (lug-ago 2022)</li>
+              <li class="nav-item mb-1">Saggio vibes</li>
+              <li class="nav-item mb-1">Saggio vibes</li>
+              <li class="nav-item mb-1">Be The Young</li>
+              <li class="nav-item mb-1">"..." cit.kimbo (lug-ago 2022)</li>
+              <li class="nav-item mb-1">Saggio vibes</li>
+              <li class="nav-item mb-1">Saggio vibes</li>
+              <li class="nav-item mb-1">Test vibes</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+      <!-- mid section -->
+      <main class="col-10 text-light mx-3">
+        <div class="nav d-flex justify-content-between mt-2">
+          <!-- chevron -->
+          <div class="d-flex align-items-center">
+            <div class="btn bg-black text-light rounded-circle">
+              <i class="bi bi-chevron-left"></i>
+            </div>
+            <div class="btn bg-black text-light rounded-circle ms-2">
+              <i class="bi bi-chevron-right"></i>
+            </div>
+            <!-- search -->
+            <div class="ms-3">
+              <span><i class="bi bi-search"></i></span>
+              <input
+                class="rounded-5 text-white ms-2"
+                type="text"
+                id="search"
+                placeholder="Cosa vuoi ascoltare?"
+              />
+            </div>
+          </div>
+          <!-- top part dx -->
+
+          <div class="d-flex align-itmes-center">
+            <div class="dropdown me-4 d-none d-md-block">
+              <button
+                class="btn bg-black text-light rounded-5"
+                type="button"
+                id="dropdownMenuButton2"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+              >
+                <i class="bi bi-person-circle me-2"></i>
+                John Skylor...
+                <i class="bi bi-caret-down-fill"></i>
+              </button>
+              <ul
+                class="dropdown-menu dropdown-menu-dark"
+                aria-labelledby="dropdownMenuButton2"
+              >
+                <li>
+                  <a class="dropdown-item active" href="#"
+                    ><b>Account</b><i class="bx bx-link-external"></i
+                  ></a>
+                </li>
+                <li>
+                  <a class="dropdown-item" href="#"><b>Profilo</b></a>
+                </li>
+                <li>
+                  <a class="dropdown-item" href="#"><b>Sessione privata</b></a>
+                </li>
+                <li><a class="dropdown-item" href="#">Impostazioni</a></li>
+                <li><hr class="dropdown-divider" /></li>
+                <li>
+                  <a class="dropdown-item text-danger" href="#">Esci</a>
+                </li>
+              </ul>
+            </div>
+            <!-- attivitá amci -->
+            <button
+              id="friendActivityButton"
+              class="btn btn-dark bg-black circle border border-0"
+              type="button"
+              data-bs-toggle="offcanvas"
+              data-bs-target="#offcanvasRight"
+              aria-controls="offcanvasRight"
+            >
+              <i class="bi bi-people-fill"></i>
+            </button>
+          </div>
+        </div>
+        <div>
+          <section class="container-fluid">
+            <div class="row bg-secondary p-4" id="results">
+              <!-- QUI CI VANNO I RISULTATI DI RICERCA -->
+            </div>
+
+            <div class="row mt-6 mt-md-1 p-3">
+              <div class="col-12">
+                <h2>Sfoglia tutto</h2>
+              </div>
+              <div class="row g-2" id="rowSfoglia">
+                <!-- QUI CI VANNO LE CARD  -->
+              </div>
+            </div>
+          </section>
+        </div>
+      </main>
+      <!-- right rection -->
+      <div
+        class="offcanvas offcanvas-end bg-black text-white"
+        tabindex="-1"
+        id="offcanvasRight"
+        aria-labelledby="offcanvasRightLabel"
+        aria-modal="true"
+        role="dialog"
+      >
+        <div class="offcanvas-header">
+          <h5 id="offcanvasRightLabel" class="fs-6 fw-bold text-fontB">
+            Attività amici
+          </h5>
+          <div>
+            <button
+              type="button"
+              class="btn circle fs-6 text-light"
+              aria-label="add friend"
+            >
+              <i class="bi bi-person-add"></i>
+            </button>
+            <button
+              type="button"
+              class="btn circle fs-6 text-light"
+              data-bs-dismiss="offcanvas"
+              aria-label="Close"
+            >
+              <i class="bi bi-x-lg"></i>
+            </button>
+          </div>
+        </div>
+        <div class="offcanvas-body" id="friendsActivity">
+          <!-- -------------------------------------------------------------------- -->
+          <div class="container-fluid mb-4">
+            <div class="row">
+              <div class="col-2">
+                <a href="#" class="friendAnchors text-friendFeed"
+                  ><img
+                    src="./assets/friend-profile-img/james-brown-carl-gouveia.jpg"
+                    alt="friend's image"
+                    class="circle img-fluid"
+                /></a>
+              </div>
+              <div class="col-7">
+                <a href="#" class="friendAnchors"
+                  ><p class="m-0 fw-bold text-fontB50">James Brown</p></a
+                >
+                <p class="m-0">
+                  <a href="" class="friendAnchors text-friendFeed"
+                    ><span>Riders Of The Storm</span></a
+                  >
+                  <i class="bi bi-dot"></i>
+                  <a href="" class="friendAnchors text-friendFeed"
+                    ><span>The Doors</span></a
+                  >
+                </p>
+                <p class="m-0 fs-6 text-truncate text-friendFeed">
+                  <a href="" class="friendAnchors text-friendFeed">
+                    <i class="bi bi-disc"></i>
+                    <span>L.A. Woman (1971)</span></a
+                  >
+                </p>
+              </div>
+              <div class="col-3">
+                <p class="m-0 fs-6 text-friendFeed">2 min fa</p>
+              </div>
+            </div>
+          </div>
+          <!-- ---------------------------------------------------------------------------- -->
+          <div class="container-fluid mb-4">
+            <div class="row">
+              <div class="col-2">
+                <a href="#" class="friendAnchors text-friendFeed"
+                  ><img
+                    src="./assets/friend-profile-img/Gigi-Profile.jfif"
+                    alt="friend's image"
+                    class="circle img-fluid"
+                /></a>
+              </div>
+              <div class="col-7">
+                <a href="#" class="friendAnchors"
+                  ><p class="m-0 fw-bold text-fontB50">Gigi D'Alessio</p></a
+                >
+                <p class="m-0">
+                  <a href="" class="friendAnchors text-friendFeed"
+                    ><span>O'Sarracino</span></a
+                  >
+                  <i class="bi bi-dot"></i>
+                  <a href="" class="friendAnchors text-friendFeed"
+                    ><span>Renato Carosone</span></a
+                  >
+                </p>
+                <p class="m-0 fs-6 text-truncate text-friendFeed">
+                  <a href="" class="friendAnchors text-friendFeed">
+                    <i class="bi bi-disc"></i>
+                    <span>O'Sarracino singolo (1958)</span></a
+                  >
+                </p>
+              </div>
+              <div class="col-3">
+                <p class="m-0 fs-6 text-friendFeed">9 min fa</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="container-fluid mb-4">
+            <div class="row">
+              <div class="col-2">
+                <a href="#" class="friendAnchors text-friendFeed"
+                  ><img
+                    src="./assets/friend-profile-img/depositphotos_609401492-stock-photo-american-singer-actress-mary-blige.jpg"
+                    alt="friend's image"
+                    class="circle img-fluid"
+                /></a>
+              </div>
+              <div class="col-7">
+                <a href="#" class="friendAnchors"
+                  ><p class="m-0 fw-bold text-fontB50">Mary J. Blige</p></a
+                >
+                <p class="m-0">
+                  <a href="" class="friendAnchors text-friendFeed"
+                    ><span>In Da Club </span></a
+                  >
+                  <i class="bi bi-dot"></i>
+                  <a href="" class="friendAnchors text-friendFeed"
+                    ><span>50 Cent</span></a
+                  >
+                </p>
+                <p class="m-0 fs-6 text-truncate text-friendFeed">
+                  <a href="" class="friendAnchors text-friendFeed">
+                    <i class="bi bi-disc"></i>
+                    <span>Get Rich or Die Tryin' (2003)</span></a
+                  >
+                </p>
+              </div>
+              <div class="col-3">
+                <p class="m-0 fs-6 text-friendFeed">1 ora fa</p>
+              </div>
+            </div>
+          </div>
+          <div class="container-fluid mb-4">
+            <div class="row">
+              <div class="col-2">
+                <a href="#" class="friendAnchors text-friendFeed"
+                  ><img
+                    src="./assets/friend-profile-img/Paul-Profile.jfif"
+                    alt="friend's image"
+                    class="circle img-fluid"
+                /></a>
+              </div>
+              <div class="col-7">
+                <a href="#" class="friendAnchors"
+                  ><p class="m-0 fw-bold text-fontB50">Paul McCartney</p></a
+                >
+                <p class="m-0">
+                  <a href="" class="friendAnchors text-friendFeed"
+                    ><span>Paint It, Black</span></a
+                  >
+                  <i class="bi bi-dot"></i>
+                  <a href="" class="friendAnchors text-friendFeed"
+                    ><span>The Rolling Stones</span></a
+                  >
+                </p>
+                <p class="m-0 fs-6 text-truncate text-friendFeed">
+                  <a href="" class="friendAnchors text-friendFeed">
+                    <i class="bi bi-disc"></i>
+                    <span>Aftermath (1966)</span></a
+                  >
+                </p>
+              </div>
+              <div class="col-3">
+                <p class="m-0 fs-6 text-friendFeed">3 ore fa</p>
+              </div>
+            </div>
+          </div>
+          <div class="container-fluid mb-4">
+            <div class="row">
+              <div class="col-2">
+                <a href="#" class="friendAnchors text-friendFeed"
+                  ><img
+                    src="./assets/friend-profile-img/stevie-wonder-manish-mansinh.jpg"
+                    alt="friend's image"
+                    class="circle img-fluid"
+                /></a>
+              </div>
+              <div class="col-7">
+                <a href="#" class="friendAnchors"
+                  ><p class="m-0 fw-bold text-fontB50">Stevie Wonder</p></a
+                >
+                <p class="m-0">
+                  <a href="" class="friendAnchors text-friendFeed"
+                    ><span>Never Too Much</span></a
+                  >
+                  <i class="bi bi-dot"></i>
+                  <a href="" class="friendAnchors text-friendFeed"
+                    ><span>Luther Vandross</span></a
+                  >
+                </p>
+                <p class="m-0 fs-6 text-truncate text-friendFeed">
+                  <a href="" class="friendAnchors text-friendFeed">
+                    <i class="bi bi-disc"></i>
+                    <span>Black Music Lounge, Pt.3 (1981)</span></a
+                  >
+                </p>
+              </div>
+              <div class="col-3">
+                <p class="m-0 fs-6 text-friendFeed">6 ore fa</p>
+              </div>
+            </div>
+          </div>
+
+          <!-- -------------------------------------------------------------------------->
+        </div>
+      </div>
+    </div>
+
+    <!-- Sezione in fondo alla pagina (Bottom-player) -->
+
+    <!-- BOTTOM PLAYER--schermi piccoli(responsive) -
+    <div
+      id="playerMini"
+      class="d-md-none container-fluid bg-black bg-opacity-50 py-3 fs-8 rounded-3 row fixed-bottom start-0 end-0 m-0 p-0"
+      style="z-index: 2; bottom: 105px"
+    >
+      <div id="playerMiniData" class="col-7 d-flex">
+        <div class="fs-6 pe-3 text-white">
+          <a href="#" class="nav-link text-decoration-none"
+            ><p class="my-0 fw-bold">Fat Funny Friend</p></a
+          >
+          <a href="#" class="nav-link text-decoration-none"
+            ><p class="my-0">Maddie Zahm</p></a
+          >
+        </div>
+      </div>
+
+      <div class="col-5 px-0 d-flex justify-content-end">
+        <button type="button" class="btn text-fontB p-0">
+          <i class="bi bi-speaker pe-3"></i>
+        </button>
+        <button type="button" class="btn text-fontB p-0">
+          <i class="bi bi-heart pe-3"></i>
+        </button>
+        <button
+          id="playButtonMini"
+          type="button"
+          class="btn text-light p-0 playButtonClass"
+        >
+          <i class="bi bi-play-circle-fill me-4 fs-1 text-fontB"></i>
+        </button>
+      </div>
+    </div> -->
+    <!-- <div class="spugna d-md-none"></div> -->
+    <!-- player jovel -->
+    <div
+      id="player-bar"
+      class="overlay z-2 bg-grigino text-light d-none border border-fontB border-bottom-0 border-start-0 border-end-0 position-fixed bottom-0 start-0 end-0"
+    >
+      <div class="container-fluid">
+        <div class="row">
+          <!-- parte a sx  player-->
+          <div class="col d-flex align-items-center p-2">
+            <img
+              src="./assets/imgs/main/image-14.jpg"
+              alt=""
+              height="70px"
+              id="album-cover"
+              class="rounded-2 d-none d-lg-block"
+            />
+            <div class="d-flex flex-column ms-3">
+              <p id="song-name" class="mt-3 mb-0"></p>
+              <p id="artist-name" class="text-fontB"></p>
+            </div>
+            <img
+              src="./assets/imgIcon/Like.png"
+              alt="like"
+              class="iconImg ms-5 d-none d-lg-block"
+            />
+          </div>
+          <!-- parte centrale player -->
+          <div class="col text-center mt-3 fs-3 mb-1">
+            <audio id="audioDiv">
+              <source src="" type="video/mp4" />
+            </audio>
+
+            <div
+              id="centralPlayer"
+              class="div d-flex justify-content-end align-items-center justify-content-lg-center"
+            >
+              <div class="btn d-none d-lg-block">
+                <img
+                  src="./assets/imgIcon/Shuffle.svg"
+                  alt=""
+                  class="iconImg d-none d-lg-block"
+                />
+              </div>
+              <div class="btn d-none d-lg-block">
+                <img
+                  src="./assets/imgIcon/Previous.svg"
+                  alt=""
+                  class="iconImg"
+                  id="previus-btn"
+                />
+              </div>
+              <div class="d-lg-none"><i class="bi bi-heart"></i></div>
+              <div class="d-lg-none"><i class="bi bi-speaker"></i></div>
+              <div id="play-playerBar"></div>
+              <div class="btn d-none d-lg-block">
+                <img
+                  src="./assets/imgIcon/Next.svg"
+                  alt=""
+                  class="iconImg"
+                  id="next-btn"
+                />
+              </div>
+              <div>
+                <img
+                  src="./assets/imgIcon/Repeat.png"
+                  alt="Repeat"
+                  class="iconImg ms-2 d-none d-lg-block mt-1"
+                />
+              </div>
+            </div>
+            <!-- progress bar e tempo -->
+            <div
+              class="d-none d-lg-flex justify-content-between align-items-center"
+            >
+              <div><p id="time-left" class="fs-6 mb-0 text-fontB">44</p></div>
+              <!-- progress bar -->
+              <div id="progress-container">
+                <div id="progress-bar"></div>
+              </div>
+              <div><p id="time" class="fs-6 mb-0 text-fontB">22</p></div>
+            </div>
+          </div>
+          <!-- player a destra -->
+          <div
+            class="col d-none d-lg-flex align-items-center justify-content-end fs-4"
+          >
+            <div class="btn">
+              <img src="./assets/imgIcon/Lyrics.svg" alt="" class="iconImg" />
+            </div>
+            <div class="btn">
+              <img src="./assets/imgIcon/Queue.svg" alt="" class="iconImg" />
+            </div>
+            <div class="btn">
+              <img
+                src="./assets/imgIcon/Connect to a device.svg"
+                alt=""
+                class="iconImg"
+              />
+            </div>
+
+            <div id="mute-Unmute"></div>
+
+            <input
+              type="range"
+              id="volumeSlider"
+              class="sliderStyle rounded-1"
+              min="0"
+              max="1"
+              step="0.1"
+              value="1"
+            />
+
+            <div>
+              <img
+                src="./assets/imgIcon/Full screen.png"
+                alt=""
+                class="iconImg ms-3 d-none d-lg-block"
+                height="15px"
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- BOTTOM NAVBAR--schermi piccoli(responsive) -->
+    <!-- <div
+      class="d-lg-none row bg-black opacity-50 py-4 fs-8 fixed-bottom start-0 end-0 text-white"
+    >
+      <div class="col-4">
+        <a
+          class="d-flex flex-column align-items-center nav-link text-light"
+          href="./index-revisited.html"
+        >
+          <i class="bi bi-house-door fs-3"></i>Home
+        </a>
+      </div>
+      <div class="col-4">
+        <a
+          class="d-flex flex-column align-items-center nav-link text-light"
+          href="#"
+        >
+          <i class="bi bi-search fs-3"></i>Cerca
+        </a>
+      </div>
+      <div class="col-4">
+        <a
+          class="d-flex flex-column align-items-center nav-link text-light"
+          href="#"
+        >
+          <i class="bi bi-collection fs-3"></i>La tua libreria
+        </a>
+      </div>
+    </div> -->
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
+      crossorigin="anonymous"
+    ></script>
+    <script src="./script/search.js"></script>
+  </body>
+</html>
